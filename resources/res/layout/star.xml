@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/linear4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <DigitalClock android:id="@+id/digitalclock1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear8" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@+id/textview1" android:background="#f44336" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="₩AVIATOR PREDICTOR₩"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear7" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/imageview1" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/hhh" android:scaleType="center"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linear5" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linear6" android:background="@drawable/ujj" android:padding="8dp" android:layout_width="300dp" android:layout_height="300dp">
+            <TextView android:textSize="40sp" android:textStyle="bold" android:textColor="#f44336" android:gravity="center" android:layout_gravity="center" android:id="@+id/textview2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.00x"/>
+        </LinearLayout>
+        <ProgressBar android:id="@+id/progressbar1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="false" style="?android:attr/progressBarStyle"/>
+        <Button android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/button1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="START"/>
+    </LinearLayout>
+</LinearLayout>
